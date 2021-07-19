@@ -21,17 +21,18 @@
             </div>
         </div>
         <!--Position-->
-        
         <div class="localisation">
             <div class="logo_gps"><i class="fas fa-map-marker-alt logogps"></i>
             </div>
-            <div class="position"><p>Paris, Belleville</p></div>
+            <div class="position">
+                <p>Paris, Belleville</p>
+            </div>
         </div>
         <div class="nav_box">
             <div class="titre_text_header">
                 <h1>Réservez le menu qui vous convient</h1>
-            
-                <p>Découvrez des restaurants d'exception,séléctionnés par nos soins</p>
+
+                <p>Découvrez des restaurants d'exception, séléctionnés par nos soins</p>
             </div>
 
             <button class="boutton_explorer">Explorer nos Restaurants</button>
@@ -43,19 +44,27 @@
         </div>
         <div class="box_fonctionnement">
             <div class="box_fct">
-                <div class="numero_un"></div>
+                <div class="numero"> <!--Numero1-->
+                    <p>1</p>
+                </div>
                 <div class="logo"><i class="fas fa-mobile-alt logor"></i></div>
-                <div class="text"><p>Choisissez un restaurant</p></div>
+                <div class="text">
+                    <p>Choisissez un restaurant</p>
+                </div>
             </div>
             <div class="box_fct">
-                <div class="numero_deux"></div>
+                <div class="numero"><p>2</p></div> <!--Numero2-->
                 <div class="logo"><i class="fas fa-list-ul logor"></i></div>
-                <div class="text"><p>Composez votre menu</p></div>
+                <div class="text">
+                    <p>Composez votre menu</p>
+                </div>
             </div>
             <div class="box_fct" id="box_3_fct">
-                <div class="numero_trois"></div>
-                <div class="logo"></div>
-                <div class="text"><p>Choisissez un restaurant</p></div>
+                <div class="numero"><p>3</p></div> <!--Numero3-->
+                <div class="logo"><i class="fas fa-store logor" aria-hidden="true"></i></div>
+                <div class="text">
+                    <p>Dégustez au restaurant</p>
+                </div>
             </div>
         </div>
 
@@ -63,10 +72,14 @@
 
     <section id="title">
         <h3 class="titre_restaurant"> Restaurants</h3>
+        <div class="box_vignettes"> <!--Box_vignettes-->
         <a href="gout.html">
-            <figure class="vignettes">  <!--1 vignette-->
-                <div class="box_nouveau"> <p>Nouveau</p></div>
-                <div class="img_gout"></div>
+            <figure class="vignettes">
+                <!--1 vignette-->
+                <div class="box_nouveau">
+                    <p>Nouveau</p>
+                </div>
+                <div class="img_gout all_img" ></div>
                 <figcaption>
                     <div class="info_vignettes">
                         <h4>La palette du goût</h4>
@@ -77,9 +90,12 @@
             </figure>
         </a>
         <a href="enchantee.html">
-            <figure class="vignettes">  <!--2 vignette-->
-                <div class="box_nouveau"> <p>Nouveau</p></div>
-                <div class="img_enchantee"></div>
+            <figure class="vignettes">
+                <!--2 vignette-->
+                <div class="box_nouveau">
+                    <p>Nouveau</p>
+                </div>
+                <div class="img_enchantee all_img" ></div>
                 <figcaption>
                     <div class="info_vignettes">
                         <h4>La note enchantée</h4>
@@ -90,8 +106,9 @@
             </figure>
         </a>
         <a href="francaise.html">
-            <figure class="vignettes">  <!--3 vignette-->
-                <div class="img_francaise"></div>
+            <figure class="vignettes">
+                <!--3 vignette-->
+                <div class="img_francaise all_img" ></div>
                 <figcaption>
                     <div class="info_vignettes">
                         <h4>A la française</h4>
@@ -102,8 +119,9 @@
             </figure>
         </a>
         <a href="sens.html">
-            <figure class="vignettes">  <!--4 vignette-->
-                <div class="img_sens"></div>
+            <figure class="vignettes">
+                <!--4 vignette-->
+                <div class="img_sens all_img" ></div>
                 <figcaption>
                     <div class="info_vignettes">
                         <h4>Le délice des sens</h4>
@@ -113,6 +131,7 @@
                 </figcaption>
             </figure>
         </a>
+    </div> <!--Box_vignettes-->
     </section>
 
     <footer>
@@ -128,9 +147,11 @@
             <p>Devenir partenaire</p>
         </div>
         <p>Mentions légales</p>
-        <a href="mailto:Ohmyfood@gmail.com" class="contact"><p>Contact</p></a>
+        <a href="mailto:Ohmyfood@gmail.com" class="contact">
+            <p>Contact</p>
+        </a>
     </footer>
-        
+
 </body>
 
 </html>

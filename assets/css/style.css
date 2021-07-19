@@ -68,7 +68,7 @@ html,body {
 .titre_text_header p {
     color: #777777;
     font-weight: 500;
-    width: 92%;
+    width: 95%;
     padding: 0 0 14px 0;
     text-align: center;
 }
@@ -87,4 +87,74 @@ h1,p {
     margin: 0;
 }
 
+/* Nav Fonctionnement */
+.titre_fonctionnement h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 35px 0 20px 0;
+}
+.box_fonctionnement {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box_fct {
+    display: flex;
+    align-items: baseline;
+    background: #f3f3f3;
+    border-radius: 20px;
+    margin: 0 0 25px 0;
+    padding: 15px 0 15px 0px;
+    width: 90%;
+    box-shadow: 3px 3px 10px 1px #d4d4d4;
+}
+.numero {
+    margin-left: -13px;
+    background: #9356dc;
+    color: white;
+    font-size: 13px;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    padding: 5px 2px 5px 10px;
+}
+.logor {
+    font-size: 18px;
+    color: grey;
+    margin: 0 22px 0 24px;
+}
+.text{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* Section title */
+#title {
+    background: #f0f0f0;
+}
+.box_vignettes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img_gout {
+    background-image: url(file:///D:/workspace/ohmyfood2/Jellaziakram_03_08072021/assets/css/images/restaurants/gout.jpg);
+}
+.img_enchantee {
+    background-image: url(assets/images/restaurants/enchantee.jpg);
+}
+.img_francaise {
+    background-image: url(assets/images/restaurants/francaise.jpg);
+}
+.img_sens {
+    background-image: url(assets/images/restaurants/sens.jpg);
+}
+.all_img {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 147px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
 
