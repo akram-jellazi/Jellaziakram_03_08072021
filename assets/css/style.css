@@ -132,22 +132,27 @@ h1,p {
 #title {
     background: #f0f0f0;
 }
+.titre_restaurant {
+    margin-left: 1.4rem;
+    padding-top: 2rem;
+}
 .box_vignettes {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 1rem 0 3rem 0;
 }
 .img_gout {
-    background-image: url(file:///D:/workspace/ohmyfood2/Jellaziakram_03_08072021/assets/css/images/restaurants/gout.jpg);
+    background: url(../images/restaurants/gout.jpg);
 }
 .img_enchantee {
-    background-image: url(assets/images/restaurants/enchantee.jpg);
+    background: url(../images/restaurants/enchantee.jpg);
 }
 .img_francaise {
-    background-image: url(assets/images/restaurants/francaise.jpg);
+    background-image: url(../images/restaurants/francaise.jpg);
 }
 .img_sens {
-    background-image: url(assets/images/restaurants/sens.jpg);
+    background-image: url(../images/restaurants/sens.jpg);
 }
 .all_img {
     background-repeat: no-repeat;
@@ -157,4 +162,94 @@ h1,p {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
+.vignettes {
+    width: 330px;
+    margin: 0 0 15px 0;
+    background: white;
+    box-shadow: 3px 3px 20px 1px #d6d6d6;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.box_nouveau {
+    float: right;
+    background-color: #99E2D0;
+    color: #16a072;
+    margin: 10px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 5px 8px 5px 8px;
+}
+figcaption {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    margin-top: -2px; 
+}
+.icon_heart {
+    font-size: 26px;
+    margin-right: 2rem;
+}
+.info_vignettes {
+    padding-left: 10px;
+}
+h4 {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0;
+    padding: 15px 0 0 10px;
+}
+section figcaption p {
+    font-size: 14px;
+    margin: 0;
+    padding: 5px 0 0 10px;
+}
+section a {
+    text-decoration: none;
+    color: black;
+}
+/* footer */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #333333;
+    color: white;
+    width: 100%;
+    height: 170px;
+}
+#footer_logo {
+    width: 100px;
+    margin: 18px 0 18px 20px;
+}
 
+.foot_box {
+    display: flex;
+    align-items: baseline;
+}
+.foot_box p {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 4px 0;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+}
+.icon_footer_ustensils {
+    font-size: 11px;
+    margin-right: 10px;
+}
+.icon_footer_main {
+    font-size: 8px;
+    margin-right: 10px;
+}
+footer p {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 4px 0;
+}
+.foot {
+    margin-left: 20px;
+}
