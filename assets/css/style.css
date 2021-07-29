@@ -187,7 +187,28 @@ figcaption {
     padding-bottom: 15px;
     margin-top: -2px; 
 }
+/*Coeur animée index */
+.emptyindex_heart:hover {
+    opacity: 0;
+    transition: opacity 0.8s linear;
+    
+  }
+.fullindex_heart:hover {  
+    background: linear-gradient(#9356dc, #ff79da);
+    transition: all 0.8s linear;
+    font-weight: 900;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.fullindex_heart {
+    position:absolute;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
 .icon_heart {
+    display:flex;
     font-size: 26px;
     margin-right: 2rem;
 }
@@ -295,7 +316,8 @@ footer p {
 .fa-heart {
     font-size: 26px;
 }
-/* Coeur animé */
+
+/* Coeur animé menu*/
 .empty_heart:hover {
     opacity: 0;
     transition: opacity 0.8s linear;
