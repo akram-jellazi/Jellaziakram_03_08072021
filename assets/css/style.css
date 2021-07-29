@@ -292,12 +292,26 @@ footer p {
 .box_titre {
     font-family: Shrikhand,"cursive";
 }
-.heart_logo {
+.fa-heart {
     font-size: 26px;
 }
 /* Coeur animé */
-.heart_logo:hover {
+.empty_heart:hover {
+    opacity: 0;
+    transition: opacity 0.8s linear;
+  }
+.full_heart:hover {  
     background: linear-gradient(#9356dc, #ff79da);
     transition: all 0.8s linear;
     font-weight: 900;
-  }
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.full_heart {
+    position:absolute;
+    right: 2rem;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
