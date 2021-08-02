@@ -337,3 +337,35 @@ footer p {
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
+
+.ligne_verte {                      /*hr ligne verte */
+    border: #99e2d0 solid 2px;
+    width: 10px;
+    margin: 4px 0 0 15px;
+    padding: 0 10px 0 10px;
+}
+.box_menu {
+    max-width: 100%;
+    overflow: hidden;
+    padding: 0 1rem;
+}
+.titre_menu {
+    font-size: 14px;
+    margin: 14px 0 0 0;
+    padding: 20px 0 3px 15px;
+}
+.menuitem {
+    background-color: #fff;
+    padding: 1rem;
+    display: flex;
+    border-radius: .75rem;
+    margin: 1rem 0;
+    box-shadow: 0.25rem 0.25rem 1rem rgb(0 0 0 / 10%);
+    overflow: hidden;
+    cursor: pointer;
+    animation: itemAppear .6s;
+    animation-timing-function: cubic-bezier(.5,1.58,.34,.82);
+    animation-fill-mode: both;
+    transform: scale(0);
+    max-width: 100%;
+}
