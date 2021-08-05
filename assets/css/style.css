@@ -188,25 +188,32 @@ figcaption {
     margin-top: -2px; 
 }
 /*Coeur animée index */
-.emptyindex_heart:hover {
+.icon_heart  .emptyindex_heart{
     opacity: 1;
-    transition: opacity 0.8s linear;
-    
   }
+.icon_heart .fullindex_heart{
+      opacity: 0;
+    }
+.icon_heart:hover .emptyindex_heart {
+      opacity: 0;
+    }
+.icon_heart:hover .fullindex_heart {
+      opacity: 1;
+  }
+.emptyindex_heart:hover {
+      transition: opacity 500ms linear;
+  }
+    
 .fullindex_heart:hover {  
     background: linear-gradient(#9356dc, #ff79da);
-    transition: all 0.8s linear;
-    font-weight: 900;
     background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-}
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text; 
+  }
 .fullindex_heart {
-    position:absolute;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-}
+      position:absolute;
+      transition: opacity 0.1s linear;
+  }
 .icon_heart {
     display:flex;
     font-size: 26px;
@@ -333,7 +340,6 @@ footer p {
 }
 
 .empty_heart:hover {
-    /* opacity: 0;*/
     transition: opacity 500ms linear;
 }
   
@@ -346,9 +352,6 @@ footer p {
 .full_heart {
     position:absolute;
     right: 2rem;
-/*    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;*/
     transition: opacity 0.1s linear;
 }
 
