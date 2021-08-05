@@ -423,7 +423,12 @@ footer p {
 
 
 
-
+.box_btn {
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    padding: 3rem 0;
+}
 .commander {
     border: 0;
     padding: .75rem 1.5rem;
@@ -441,10 +446,4 @@ footer p {
 .commander:hover {
     background-color: #fff;
     box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 50%);
-}
-.box_btn {
-    display: flex;
-    text-decoration: none;
-    justify-content: center;
-    padding: 3rem 0;
 }
