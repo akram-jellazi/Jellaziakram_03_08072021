@@ -529,3 +529,59 @@ footer p {
     background-color: #fff;
     box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 50%);
 }
+ /* Tablette ipad= (768*1024)  */ 
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .boutton_explorer {
+        width: 30%;
+    }
+    .titre_fonctionnement h2 {
+        margin: 35px 0 20px 307px;
+    }
+    .titre_restaurant {
+        margin-left: 19.4rem;
+    }
+    .box_fct {
+        width: 35%;
+    }
+    .footer {
+        flex-direction: column;
+    }
+}
+/* Desktop 1024px + */
+@media screen and (min-width:1024px) and (max-width: 1920px) {
+    .box_logo {
+        margin: 10px 310px;
+    }
+    .boutton_explorer {
+        width: 20%;
+    }
+    .titre_fonctionnement h2 {
+        display:flex;
+        justify-content: center;
+    }
+    .box_fct {
+        width: 22%;
+    }
+    .box_vignettes {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        padding: 1rem 0 3rem 1rem;
+    }
+    .vignettes {
+        width: 14.375rem; /* 310px */
+        margin: 0px 18px 15px 0px;
+    }
+    .foot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 98%;
+    margin-left: 0;
+    }
+    #footer_logo {
+        width: 20rem;
+        margin: 18px 0 18px 20px;
+        align-self: center;
+    }
+}
