@@ -597,7 +597,7 @@ footer p {
     margin: -8px 0 0 -8px;
     padding: 14px 0px 0px 0;
     background: linear-gradient(#ff79da, #9356dc);
-    animation: disparition 8s linear;
+    animation: disparition 2s linear;
     animation-fill-mode: both;
     font-size: 3rem
 }
