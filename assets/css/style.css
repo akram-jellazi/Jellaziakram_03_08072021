@@ -10,10 +10,11 @@
 html,body {
     margin: 0;
     font-family: "Roboto";
-    /* font-size: 14px; */
 }
 .box_logo {
-        margin: 10px 110px;
+    display: flex;
+    justify-content: center;
+    margin: 10px 110px;
 }
 .logo img {
     width: 100%;
