@@ -97,6 +97,8 @@ h1,p {
     font-size: 20px;
     font-weight: 600;
     margin: 35px 0 20px 0;
+    display: flex;
+    justify-content: center;
 }
 .box_fonctionnement {
     display: flex;
@@ -215,7 +217,6 @@ figcaption {
     
 .fullindex_heart:hover {  
     background: linear-gradient(#9356dc, #ff79da);
-    background-clip: text;
     -webkit-text-fill-color: transparent; 
     -webkit-background-clip: text; 
   }
@@ -375,7 +376,6 @@ footer p {
   
 .full_heart:hover {  
     background: linear-gradient(#9356dc, #ff79da);
-    background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
@@ -534,9 +534,6 @@ footer p {
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .boutton_explorer {
         width: 30%;
-    }
-    .titre_fonctionnement h2 {
-        margin: 35px 0 20px 307px;
     }
     .titre_restaurant {
         margin-left: 19.4rem;
