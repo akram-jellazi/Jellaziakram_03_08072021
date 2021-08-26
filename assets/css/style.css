@@ -582,7 +582,7 @@ footer p {
     .box_fct {
         width: 35%;
     }
-    .footer {
+    footer {
         flex-direction: column;
     }
 }
@@ -610,6 +610,9 @@ footer p {
     .vignettes {
         width: 14.375rem; /* 310px */
         margin: 0px 18px 15px 0px;
+    }
+    footer {
+        height: 246px;
     }
     .foot {
         display: flex;
