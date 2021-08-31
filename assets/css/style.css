@@ -172,6 +172,9 @@ h1,p {
     color: grey;
     margin: 0 22px 0 24px;
 }
+nav .box_fct:hover .logor {
+    color: #9356dc;
+}
 .text{
     font-size: 14px;
     font-weight: 600;
@@ -260,7 +263,7 @@ figcaption {
   }
 .fullindex_heart {
       position:absolute;
-      transition: opacity 0.1s linear;
+      transition: opacity 1s linear;
   }
 .icon_heart {
     display:flex;
@@ -409,7 +412,7 @@ footer p {
 }
 
 .empty_heart:hover {
-    transition: opacity 500ms linear;
+    transition: opacity 300ms linear;
 }
   
 .full_heart:hover {  
