@@ -423,7 +423,7 @@ footer p {
 .full_heart {
     position:absolute;
     right: 2rem;
-    transition: opacity 0.1s linear;
+    transition: opacity 1s linear;
 }
 
 .ligne_verte {                      /*hr ligne verte */
